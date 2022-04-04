@@ -1,13 +1,13 @@
 About r-norm
 ============
 
-Home: http://www.stat.psu.edu/~jls/misoftwa.html#aut
+Home: https://CRAN.R-project.org/package=norm
 
-Package license: Other
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-norm-feedstock/blob/main/LICENSE.txt)
 
-Summary: Analysis of multivariate normal datasets with missing values
+Summary: An integrated set of functions for the analysis of multivariate normal datasets with missing values, including implementation of the EM algorithm, data augmentation, and multiple imputation.
 
 Current build status
 ====================
