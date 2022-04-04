@@ -42,12 +42,15 @@ test:
     - "\"%R%\" -e \"library('norm')\""  # [win]
 
 about:
-  home: http://www.stat.psu.edu/~jls/misoftwa.html#aut
-  license: Other
-  license_file: LICENSE
-  summary: Analysis of multivariate normal datasets with missing values
-  license_family: OTHER
-
+  home: https://CRAN.R-project.org/package=norm
+  license: GPL-2.0-or-later
+  summary: An integrated set of functions for the analysis of multivariate normal datasets with
+    missing values, including implementation of the EM algorithm, data augmentation,
+    and multiple imputation.
+  license_family: GPL2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  
 extra:
   recipe-maintainers:
     - conda-forge/r
