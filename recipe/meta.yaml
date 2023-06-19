@@ -1,4 +1,4 @@
-{% set version = "1.0-11.0" %}
+{% set version = "1.0-11.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/norm_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/norm/norm_{{ version }}.tar.gz
-  sha256: cd8a4e81782ec459cb4a9665c407147b2cd3a0d4a7562f60689415864269402e
+  sha256: c2ffe6c30fc203337bde49ef630a740141604d8e648c558e58c20116c47963bc
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
